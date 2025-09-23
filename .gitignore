@@ -1,1 +1,12 @@
+nano .gitignore
 .DS_Store
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Dependencies
+vendor/
+node_modules/
+
