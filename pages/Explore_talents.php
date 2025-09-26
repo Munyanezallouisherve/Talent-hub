@@ -253,7 +253,7 @@
 
     <div class="sidenav">
         <div class="topnav-centered">
-            <img src="images/logo.jpg" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:10px;">
+            <img src="../assests/images/logo.jpg" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:10px;">
         </div>
         <li><a href="employer_dashboard.php"><i class="fas fa-home"></i> Overview</a></li>
         <a class="active" href="Explore_talents.php"><i class="fa fa-search"></i> Explore talents</a></li>

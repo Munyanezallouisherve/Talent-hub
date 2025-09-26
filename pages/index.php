@@ -12,10 +12,10 @@
   <div class="header">
     <img class="logo" src="../assests/logo.png" alt="Logo">
     <div class="navigation">
-      <a href="../pages/index.html"> Home</a>
-      <a href="../pages/AboutUs.html">About Us</a>
-      <a href="../pages/OurServices.html">Our Services</a>
-      <a href="../pages/ContactUs.html">Contact Us</a>
+      <a href="../pages/index.php"> Home</a>
+      <a href="../pages/AboutUs.php">About Us</a>
+      <a href="../pages/OurServices.php">Our Services</a>
+      <a href="../pages/ContactUs.php">Contact Us</a>
     </div>
   </div>
 
@@ -30,8 +30,8 @@
         <h1 style="background-color: rgba(54, 137, 131, 0.5);"><strong>Welcome to TalentHub</strong></h1>
         <p style="background-color: rgba(54, 137, 131, 0.5);">Explore the amazing support and  Services we offer.</p>
         <div class="button-container">
-          <button class="button" onclick="window.location.href='login.php'">Login</button>
-          <button class="button" onclick="window.location.href='signUp.php'">Register</button>
+          <button class="button" onclick="window.location.href='../pages/login.php'">Login</button>
+          <button class="button" onclick="window.location.href='../pages/signUp.php''">Register</button>
         </div>
       </div>
     </div>
@@ -46,8 +46,8 @@
         <h1 style="background-color: rgba(54, 137, 131, 0.5);"><strong>Are you an Employee?</strong></h1>
         <p style="background-color: rgba(54, 137, 131, 0.5);">Join us to showercase your talents and be matched to amazing Employers</p>
         <div class="button-container">
-          <button class="button" onclick="window.location.href='login.php'">Login</button>
-          <button class="button" onclick="window.location.href='signUp.php'">Register</button>
+          <button class="button" onclick="window.location.href='../pages/login.php'">Login</button>
+          <button class="button" onclick="window.location.href='../pages/signUp.php'">Register</button>
         </div>
       </div>
     </div>
@@ -62,8 +62,8 @@
         <h1 style="background-color: rgba(54, 137, 131, 0.5);"><strong>Are you looking for innovative minds and talents?</strong></h1>
         <p style="background-color: rgba(54, 137, 131, 0.5);">Just us today and get matched with amazing talents people!</p>
         <div class="button-container">
-          <button class="button" onclick="window.location.href='login.php'">Login</button>
-          <button class="button" onclick="window.location.href='signUp.php'">Register</button>
+          <button class="button" onclick="window.location.href='../pages/login.php'">Login</button>
+          <button class="button" onclick="window.location.href='../pages/signUp.php'">Register</button>
         </div>
       </div>
     </div>
@@ -78,8 +78,8 @@
         <h1 style="background-color: rgba(54, 137, 131, 0.5);"><strong>You are on the Right platform!</strong></h1>
         <p style="background-color: rgba(54, 137, 131, 0.5);">Just Register and login and Explore!</p>
         <div class="button-container">
-          <button class="button" onclick="window.location.href='login.php'">Login</button>
-          <button class="button" onclick="window.location.href='signUp.php'">Register</button>
+          <button class="button" onclick="window.location.href='../pages/login.php'">Login</button>
+          <button class="button" onclick="window.location.href='../pages/signUp.php'">Register</button>
         </div>
       </div>
     </div>
@@ -94,8 +94,8 @@
         <h1 style="background-color: rgba(54, 137, 131, 0.5);"><strong>Unleash Your Creativity</strong></h1>
         <p style="background-color: rgba(54, 137, 131, 0.5);">Join our creative community and unleash your full potential.</p>
         <div class="button-container">
-          <button class="button" onclick="window.location.href='login.php'">Login</button>
-          <button class="button" onclick="window.location.href='signUp.php'">Register</button>
+          <button class="button" onclick="window.location.href='../pages/login.php'">Login</button>
+          <button class="button" onclick="window.location.href='../pages/signUp.php'">Register</button>
         </div>
       </div>
     </div>

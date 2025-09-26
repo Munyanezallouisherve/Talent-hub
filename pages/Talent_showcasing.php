@@ -552,7 +552,7 @@ session_start();
 
         <div class="sidenav">
             <div class="topnav-centered">
-            <img src="images/logo.png" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:10px;">
+            <img src="../assests/images/logo.png" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:10px;">
             </div>
           <a href="employee_dashboard.php"><i class="fas fa-home"></i> Overview</a>
           <li><a class="active" href="Talent_showcasing.php"><i class="fas fa-address-book"></i> Showcase your talent</a></li>

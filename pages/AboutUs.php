@@ -11,10 +11,10 @@
     <div class="container">
       <img class="logo" src="../assests/logo.png" alt="Logo">
       <div class="navigation">
-        <a href="../pages/index.html"> Home</a>
-        <a href="../pages/AboutUs.html">About Us</a>
-        <a href="../pages/OurServices.html">Our Services</a>
-        <a href="../pages/ContactUs.html">Contact Us</a>
+        <a href="../pages/index.php"> Home</a>
+        <a href="../pages/AboutUs.php">About Us</a>
+        <a href="../pages/OurServices.php">Our Services</a>
+        <a href="../pages/ContactUs.php">Contact Us</a>
       </div>
     </div>
   </header>

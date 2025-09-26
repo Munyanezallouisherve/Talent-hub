@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <style>
+        <style>
         body {
             background-color: #dedab6;
             color: black;
@@ -85,12 +85,13 @@
             text-align: center;
         }
     </style>
+
 </head>
 
 <body>
     <div class="login-container">
         <h2 style="text-align:center;">Login</h2>
-        <form action="login_action.php" method="post" name="loginForm" id="loginForm">
+        <form action="" method="post" name="loginForm" id="loginForm">
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
@@ -99,8 +100,8 @@
                 <button type="submit">Login</button>
             </div>
         </form>
-        <p style="text-align: center;">Don't have an account? <a href="signUp.php">Register here</a></p>
-        <p style="text-align: center;">Forgot password? <a href="forgot_password.php"> Set it here</a></p>
+        <p style="text-align: center;">Don't have an account? <a href="../pages/signUp.php">Register here</a></p>
+        <p style="text-align: center;">Forgot password? <a href="../pages/forget_password.php"> Set it here</a></p>
     </div>
 </body>
 
