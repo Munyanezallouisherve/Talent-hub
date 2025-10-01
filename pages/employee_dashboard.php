@@ -39,24 +39,27 @@
         </div>
 
         <div class="activity-overview">
-            <h2><a href="#">Report</a></h2>
-            <div class="card">
-            <h3>Submitted Portofolios</h3>
+    <h2>Report</h2>
+    <div class="cards-container">
+        <div class="card">
+            <h3>Submitted Portfolios</h3>
             <p>3</p>
-          </div>
-          <div class="card">
-            <h3>Portofolio views</h3>
-            <p>2</p>
-          </div>
-            <div class="card">
-          <h3>Employer Offers</h3>
-          <p>4</p>
         </div>
         <div class="card">
-          <h3>Accepted Employer Offers</h3>
-          <p>2</p>
+            <h3>Portfolio Views</h3>
+            <p>2</p>
         </div>
-      </div>
+        <div class="card">
+            <h3>Employer Offers</h3>
+            <p>4</p>
+        </div>
+        <div class="card">
+            <h3>Accepted Employer Offers</h3>
+            <p>2</p>
+        </div>
+    </div>
+</div>
+
       
       <div class="hiring-status">
         <h2><a href="#">Employer Offers</a></h2>

@@ -85,7 +85,7 @@ if(isset($_SESSION['error_message']) && $_SESSION['error_message'] != ""){
 <body>
     <div class="forgot-password-container">
         <h2 style="background-color: rgba(54, 137, 131, 0.5); text-align:center;">Forgot Password</h2>
-        <form action="forgot_password_action.php" method="post" name="forgotPasswordForm" id="forgotPasswordForm">
+        <form action="../pages/forgot_password_action.php" method="post" name="forgotPasswordForm" id="forgotPasswordForm">
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>

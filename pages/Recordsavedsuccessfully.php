@@ -49,7 +49,7 @@
   <div class="container">
     <h2>Record Saved Successfully!</h2>
     <p>Your record has been successfully saved in our system. Thank you for providing the necessary information.</p>
-    <a href="Talent_showcasing.php" class="button">Go Back</a>
+    <a href="../pages/Talent_showcasing.php" class="button">Go Back</a>
   </div>
 </body>
 

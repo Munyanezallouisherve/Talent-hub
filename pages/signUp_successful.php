@@ -44,7 +44,7 @@
   <div class="container">
     <h2>Registration Successful!</h2>
     <p>Your account has been created.</p>
-    <a href="login.php" class="button">Login</a>
+    <a href="../pages/login.php" class="button">Login</a>
   </div>
 </body>
 

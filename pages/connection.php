@@ -2,7 +2,7 @@
 // Database connection parameters
 $servername = "localhost";
 $username = "root";
-$dbname = "TalentHub";
+$dbname = "TalentHub1";
 $password = " ";
 
 // Create connection

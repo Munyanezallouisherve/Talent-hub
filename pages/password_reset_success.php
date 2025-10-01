@@ -44,7 +44,7 @@
   <div class="container">
     <h2>Password Reset Successfully!</h2>
     <p>Your password has been successfully reset.</p>
-    <a href="login.php" class="button">Go Back to Login</a>
+    <a href="../pages/login.php" class="button">Go Back to Login</a>
   </div>
 </body>
 
