@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         body {
-            background: linear-gradient(rgba(7, 188, 163, 0.7), rgba(7, 188, 163, 0.7)),
+            background: linear-gradient(rgba(202, 196, 128, 0.7), rgba(202, 196, 128, 0.7)),
                         url('Images/Talentshowcasing.png') no-repeat center center/cover;
             font-family: 'Segoe UI', Arial, sans-serif;
             min-height: 100vh;

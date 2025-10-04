@@ -31,7 +31,7 @@
         <p style="background-color: rgba(54, 137, 131, 0.5);">Explore the amazing support and  Services we offer.</p>
         <div class="button-container">
           <button class="button" onclick="window.location.href='../pages/login.php'">Login</button>
-          <button class="button" onclick="window.location.href='../pages/signUp.php''">Register</button>
+          <button class="button" onclick="window.location.href='../pages/signUp.php'">Register</button>
         </div>
       </div>
     </div>

@@ -50,7 +50,7 @@
     <div class="cta-section">
       <h2>Ready to Experience Our Services?</h2>
       <p>Take the first step towards better talents worlds today.</p>
-      <a href="Index.php" class="cta-btn">Join Us Today</a>
+       <a href="Index.php" class="cta-btn">Join Us Today</a>
     </div>
   </div>
 </body>

@@ -34,7 +34,7 @@
         <img src="../assests/Images/employees.jpeg" alt="Employees" width="30%" style="border-radius: 20px">
             <h1>Need a job?</h1>
             <p>Showcase your talents by posting your portofolio and get instantly connected with your dream employer!</p>
-            <button onclick="document.location='bookappointment.php'" >Showcase your talent</button>
+            <button onclick="document.location='Talent_showcasing.php'" >Showcase your talent</button>
             
         </div>
 
