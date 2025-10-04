@@ -19,7 +19,7 @@
         </div>
           <a class="active" href="#"><i class="fas fa-home"></i> Overview</a>
           <li><a href="Talent_showcasing.php"><i class="fas fa-address-book"></i> Showcase your talent</a></li>
-          <li><a href="connected_employers.php"><i class="fas fa-user-tie"></i> Connected Employers</a></li>
+          <li><a href="connected_emoloyers.php"><i class="fas fa-user-tie"></i> Connected Employers</a></li>
           <li><a href="employee_profile.php"><i class="fas fa-user-edit"></i> Edit my profile</a></li>
           <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
         </div>
@@ -61,49 +61,74 @@
 </div>
 
       
-      <div class="hiring-status">
-        <h2><a href="#">Employer Offers</a></h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Employer</th>
-              <th>Job Specification</th>
-              <th>Date</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-                <td>Favour Samba</td>
-                <td>Dancer</td>
-                <td>26-02-24</td>
-                <td class="pending">Pending</td>
-            </tr>
-            <tr>
-                <td>Jabari Jimenez</td>
-                <td>Frontend Engineer</td>
-                <td>25-02-24</td>
-                <td class="rejected">Cancelled</td>
-            </tr>
-            <tr>
-                <td>Blaise Mugisha</td>
-                <td>Backend Engineer</td>
-                <td>25-02-24</td>
-                <td class="accepted">Accepted</td>
-            </tr>
-            <tr>
-                <td>Fiona Rolland</td>
-                <td>Backend Engineer</td>
-                <td>21-02-24</td>
-                <td class="accepted">Accepted</td>
-            </tr>
-          </tbody>
-        </table>
-        <br>
-        <a href="hiring-status.php" style="color:blue"><u>View More</u></a>
-      </div>
-    </div>
+<div class="hiring-status">
+  <h2><a href="#">Employer Offers</a></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Employer</th>
+        <th>Job Specification</th>
+        <th>Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- always visible rows -->
+      <tr>
+        <td>Favour Samba</td>
+        <td>Dancer</td>
+        <td>26-02-24</td>
+        <td class="pending">Pending</td>
+      </tr>
+      <tr>
+        <td>Jabari Jimenez</td>
+        <td>Frontend Engineer</td>
+        <td>25-02-24</td>
+        <td class="rejected">Cancelled</td>
+      </tr>
+
+      <!-- hidden rows -->
+      <tr class="more-offers" style="display: none;">
+        <td>Blaise Mugisha</td>
+        <td>Backend Engineer</td>
+        <td>25-02-24</td>
+        <td class="accepted">Accepted</td>
+      </tr>
+      <tr class="more-offers" style="display: none;">
+        <td>Fiona Rolland</td>
+        <td>Backend Engineer</td>
+        <td>21-02-24</td>
+        <td class="accepted">Accepted</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="view-more-container">
+    <button class="view-more-btn" id="viewMoreBtn">
+      Show More Offers <i class="fas fa-chevron-down"></i>
+    </button>
   </div>
+</div>
+     <script>
+  const btn = document.getElementById('viewMoreBtn');
+  const hiddenRows = document.querySelectorAll('.more-offers');
+  let expanded = false;
+
+  btn.addEventListener('click', () => {
+    expanded = !expanded;
+    hiddenRows.forEach(row => {
+      row.style.display = expanded ? 'table-row' : 'none';
+    });
+
+    // rotate the arrow icon
+    const icon = btn.querySelector('i');
+    icon.style.transform = expanded ? 'rotate(180deg)' : 'rotate(0deg)';
+
+    btn.textContent = expanded ? 'Show Less Offers ' : 'Show More Offers ';
+    btn.appendChild(icon); // reattach the icon after changing text
+  });
+</script>
+
 </body>
 </html>
 

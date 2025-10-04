@@ -19,12 +19,12 @@ session_start();
 
         <div class="sidenav">
             <div class="topnav-centered">
-                <img src="images/logo.png" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:10px;">
+                <img src="../assests/images/logo.png" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:10px;">
             </div>
-            <a href="employee_dashboard"><i class="fas fa-home"></i> Overview</a>
+            <a href="employee_dashboard.php"><i class="fas fa-home"></i> Overview</a>
             <a href="Talent_showcasing.php"><i class="fas fa-address-book"></i> Showcase your talent</a>
-            <li><a class="active" href="connected_employers.php"><i class="fas fa-user-tie"></i> Connected Employers</a></li>
-            <a href="employee_dashboard.php"><i class="fas fa-user-edit"></i> Edit my profile</a>
+            <li><a class="active" href="connected_emoloyers.php"><i class="fas fa-user-tie"></i> Connected Employers</a></li>
+            <a href="employee_profile.php"><i class="fas fa-user-edit"></i> Edit my profile</a>
             <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
         </div>
     </div>

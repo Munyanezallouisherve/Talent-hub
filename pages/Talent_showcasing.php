@@ -556,8 +556,8 @@ session_start();
             </div>
           <a href="employee_dashboard.php"><i class="fas fa-home"></i> Overview</a>
           <li><a class="active" href="Talent_showcasing.php"><i class="fas fa-address-book"></i> Showcase your talent</a></li>
-          <li><a href="connected_employers.php"><i class="fas fa-user-tie"></i> Connected Employers</a></li>
-          <li><a href="employee_dashboard.php"><i class="fas fa-user-edit"></i> Edit my profile</a></li>
+          <li><a href="connected_emoloyers.php"><i class="fas fa-user-tie"></i> Connected Employers</a></li>
+          <li><a href="employee_profile.php"><i class="fas fa-user-edit"></i> Edit my profile</a></li>
           <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
         </div>
     </header>
