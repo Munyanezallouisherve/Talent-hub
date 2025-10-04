@@ -150,7 +150,7 @@ include 'connection.php';
     <img src="../assests/logo.png" alt="Logo" style="height: 50px; margin-bottom:20px; margin-top:-15px">
     <a href="employer_dashboard.php"><i class="fas fa-home"></i> Overview</a>
     <a href="Explore_talents.php"><i class="fa fa-search"></i> Explore talents</a>
-    <a href="employer_dashboard.php"><i class="fas fa-user"></i> Hired talents</a>
+    <a href="hired_talents.php"><i class="fas fa-user"></i> Hired talents</a>
     <a href="employer_profile.php"><i class="fas fa-user-edit"></i> Edit my profile</a>
     <a href="employer_logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
 </div>

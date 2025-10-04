@@ -257,7 +257,7 @@
         </div>
         <li><a href="employer_dashboard.php"><i class="fas fa-home"></i> Overview</a></li>
         <a class="active" href="Explore_talents.php"><i class="fa fa-search"></i> Explore talents</a></li>
-        <li><a href="employer_dashboard.php"><i class="fas fa-user"></i> Hired talents</a></li>
+        <li><a href="hired_talents.php"><i class="fas fa-user"></i> Hired talents</a></li>
         <li><a href="employer_profile.php"><i class="fas fa-user-edit"></i> Edit my profile</a></li>
         <li><a href="employer_logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
     </div>
