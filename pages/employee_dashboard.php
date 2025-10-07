@@ -10,7 +10,7 @@
 <body>
      <div class="container">
         <div class="topnav">
-          <h1>Dashboard</h1>
+          <h1>Employee Dashboard</h1>
         </div>
 
         <div class="sidenav">
@@ -26,7 +26,7 @@
 
     <div class="dashboard">
         <div class = "welcome">
-            <h1>Welcome!</h1>
+            <h1>Welcome, Employee!</h1>
             <p>Ready to be hired today?</p>
         </div>
 

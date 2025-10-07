@@ -1,3 +1,41 @@
+<?php
+session_start();
+
+// Database connection parameters
+$servername = "localhost";
+$username = "root";
+$password = ""; // no password if default XAMPP setup
+$dbname = "TalentHub1";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Assume employer is logged in and their ID is stored in session
+if (!isset($_SESSION['UserID']) || $_SESSION['UserType'] != 'employer') {
+    header("Location: login.php");
+    exit();
+}
+
+$employer_id = $_SESSION['UserID'];
+
+// Fetch hired talents for this employer
+$sql = "SELECT sp.full_name, sp.talent_field, h.hired_date
+        FROM hiredtalents h
+        JOIN submitted_portfolios sp ON h.portfolio_id = sp.id
+        WHERE h.employer_id = ? 
+        ORDER BY h.hired_date DESC";
+
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $employer_id);
+$stmt->execute();
+$result = $stmt->get_result();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,12 +74,20 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Koku Mutabazi</td>
-                        <td>Backend Engineer</td>
-                        <td>21-02-24</td>
-                        <td class="accepted">Hired</td>
-                    </tr>
+                    <?php if ($result->num_rows > 0): ?>
+                        <?php while($row = $result->fetch_assoc()): ?>
+                            <tr>
+                                <td><?php echo htmlspecialchars($row['full_name']); ?></td>
+                                <td><?php echo htmlspecialchars($row['talent_field']); ?></td>
+                                <td><?php echo date("d-m-Y", strtotime($row['hired_date'])); ?></td>
+                                <td class="accepted">Hired</td>
+                            </tr>
+                        <?php endwhile; ?>
+                    <?php else: ?>
+                        <tr>
+                            <td colspan="4" style="text-align:center;">No hired talents yet</td>
+                        </tr>
+                    <?php endif; ?>
                 </tbody>
             </table>
         </div>
