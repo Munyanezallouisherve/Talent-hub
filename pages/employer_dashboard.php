@@ -53,19 +53,19 @@
         <div class="activity-overview">
             <div class="card">
                 <h3>Available Talents</h3>
-                <p>10</p>
+                <p>1</p>
             </div>
             <div class="card">
                 <h3>Hired Talents</h3>
-                <p>4</p>
+                <p>1</p>
             </div>
             <div class="card">
                 <h3>Pending Applications</h3>
-                <p>6</p>
+                <p>0</p>
             </div>
             <div class="card">
                 <h3>Rejected Applications</h3>
-                <p>2</p>
+                <p>0</p>
             </div>
         </div>
 
@@ -83,29 +83,12 @@
     </thead>
     <tbody>
       <!-- Always visible rows -->
-      <tr>
-        <td>Bryan Mugisha</td>
-        <td>Frontend Engineer</td>
-        <td>26-02-24</td>
-        <td class="pending">Pending</td>
-      </tr>
-      <tr>
-        <td>Linda Rolland</td>
-        <td>Singer</td>
-        <td>25-02-24</td>
-        <td class="rejected">Rejected</td>
-      </tr>
-
-      <!-- Hidden rows -->
+  
       <tr class="more-rows" style="display: none;">
-        <td>Soreille Zuba</td>
-        <td>Audio Transcriber</td>
-        <td>25-02-24</td>
-        <td class="pending">Pending</td>
-      </tr>
-      <tr class="more-rows" style="display: none;">
-        <td>Koku Mutabazi</td>
-        <td>Backend Engineer</td>
+        <td>poplou</td>
+        <td>cinematographer
+        
+        </td>
         <td>21-02-24</td>
         <td class="accepted">Accepted</td>
       </tr>

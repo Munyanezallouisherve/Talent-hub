@@ -43,19 +43,19 @@
     <div class="cards-container">
         <div class="card">
             <h3>Submitted Portfolios</h3>
-            <p>3</p>
+            <p>1</p>
         </div>
         <div class="card">
             <h3>Portfolio Views</h3>
-            <p>2</p>
+            <p>1</p>
         </div>
         <div class="card">
             <h3>Employer Offers</h3>
-            <p>4</p>
+            <p>2</p>
         </div>
         <div class="card">
             <h3>Accepted Employer Offers</h3>
-            <p>2</p>
+            <p>1</p>
         </div>
     </div>
 </div>
@@ -75,29 +75,17 @@
     <tbody>
       <!-- always visible rows -->
       <tr>
-        <td>Favour Samba</td>
+        <td>Samba</td>
         <td>Dancer</td>
         <td>26-02-24</td>
         <td class="pending">Pending</td>
       </tr>
-      <tr>
-        <td>Jabari Jimenez</td>
-        <td>Frontend Engineer</td>
-        <td>25-02-24</td>
-        <td class="rejected">Cancelled</td>
-      </tr>
-
+  
       <!-- hidden rows -->
       <tr class="more-offers" style="display: none;">
-        <td>Blaise Mugisha</td>
-        <td>Backend Engineer</td>
+        <td>poplou</td>
+        <td>cinematographer</td>
         <td>25-02-24</td>
-        <td class="accepted">Accepted</td>
-      </tr>
-      <tr class="more-offers" style="display: none;">
-        <td>Fiona Rolland</td>
-        <td>Backend Engineer</td>
-        <td>21-02-24</td>
         <td class="accepted">Accepted</td>
       </tr>
     </tbody>

@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Prepare SQL statement
-    $sql = "INSERT INTO talents (user_id, full_name, email_address, talent_field, portfolio_file, resume_file, cover_letter_file) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO submitted_portfolios (user_id, full_name, email_address, talent_field, portfolio_file, resume_file, cover_letter_file) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
 
     // Check for errors in preparing the statement
