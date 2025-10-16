@@ -51,7 +51,7 @@
         </div>
         <div class="card">
             <h3>Employer Offers</h3>
-            <p>2</p>
+            <p>3</p>
         </div>
         <div class="card">
             <h3>Accepted Employer Offers</h3>
